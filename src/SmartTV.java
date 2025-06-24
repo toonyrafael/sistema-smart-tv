@@ -1,3 +1,7 @@
+/**
+ * Sistema de SmartTV
+ */
+
 public class SmartTV {
   
     boolean ligada = false;
@@ -25,6 +29,10 @@ public class SmartTV {
       volume--;
       System.out.println("Diminuindo o volume para: " + volume);
     }
+
+    /**serve para ligar
+     * 
+     */
 
     public void ligar(){
       ligada=true;
